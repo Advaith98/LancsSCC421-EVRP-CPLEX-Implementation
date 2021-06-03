@@ -1,0 +1,31 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: D2
+ * Creation Date: 10 May 2021 at 13:38:58
+ *********************************************/
+ 
+ SheetConnection data("data.xlsx");
+ 
+ n from SheetRead(data, "n");
+ s from SheetRead(data, "s");
+ m = 1;
+ 
+ demandedLoad from SheetRead(data, "D");
+ serviceType from SheetRead(data, "u");
+ handlingTime from SheetRead(data, "h");
+
+ 
+ driverHourlyWage from SheetRead(data, "Ctt");
+ batteryChargingMoneyRate from SheetRead(data, "Ce");
+ rechargingRate from SheetRead(data, "'Sheet1'!B10");
+ genericBatteryCapacity from SheetRead(data, "Cm"); 
+ rollingDragCoefficient from SheetRead(data, "Cd");
+ engineEfficiency from SheetRead(data, "ef");
+ frontalSurfaceArea from SheetRead(data, "A");
+ acceleration from SheetRead(data, "'Sheet1'!B15");
+ genericRoadAngle from SheetRead(data, "theta"); 
+ airDensity from SheetRead(data, "greekP");
+ rollingResistanceCoefficient from SheetRead(data, "Cr");
+ gravitationalConstant from SheetRead(data, "g");
+ vehicleCurbWeight from SheetRead(data, "w");
+ genericVehicleCapacity from SheetRead(data, "Qm"); 

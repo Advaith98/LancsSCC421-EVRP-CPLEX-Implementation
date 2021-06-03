@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="false" name="Configuration" category="opl">
+			<ref name="Electric Vehicle Routing Model.dat" type="data">
+			</ref>
+			<ref name="Electric Vehicle Routing Model2.mod" type="model">
+			</ref>
+		</config>
+		<config default="true" name="Configuration." category="opl">
+			<ref name="Electric Vehicle Routing Model.dat" type="data">
+			</ref>
+			<ref name="Electric Vehicle Routing Model.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
